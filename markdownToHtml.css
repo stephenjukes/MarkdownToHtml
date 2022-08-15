@@ -1,0 +1,115 @@
+/* * {
+    border: 1px solid blue;
+} */
+
+body {
+    line-height: 25px;
+}
+
+#dashboard {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-container {
+	flex: 1 1 600px;
+    max-width: 80%;
+	margin: 20px auto;
+}
+
+#run-button, .content-container h4, #markdown-container p {
+	display: inline-block;
+}
+
+#run-button {
+	vertical-align: center;
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+
+#run-button:hover {
+	cursor: pointer;
+}
+
+.content {
+	box-sizing: border-box;
+	padding: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+#markdown, #html {
+	height: 500px;
+	overflow: scroll;
+	font: 14px Courier;
+	color: #666;
+}
+
+pre {
+	margin: 0;
+}
+
+#result {
+	min-height: 500px;
+	font-family: Arial;
+}
+
+#result > * {
+    margin: 20px 0;
+}
+
+table, th, td {
+	text-align: left;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 10px 20px;
+}
+
+th {
+	background: #d5edf5;
+}
+
+li {
+	padding-left: 0.5em;
+}
+
+blockquote {
+	border-left: 10px solid #999;
+	background: #f9f9f9;
+	padding: 10px 0 10px 20px;
+	margin: 0;
+}
+
+img {
+	height: 120px;
+	border-radius: 2px;
+}
+
+code {
+	background: #eee;
+	padding: 3px 6px;
+	border-radius: 3px;
+}
+
+.fencing {
+	background: #eee;
+    border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+.fencing code {
+	display: block;
+	line-height: 14px;
+}
+
+.horizontal-rule {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.marked {
+    background: #f9e79f 
+    ;
+}

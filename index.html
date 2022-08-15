@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet", href="markdownToHtml.css">
+    </head>
+    <body style="border:1px solid #eee;">
+        <section id="dashboard">
+            <section id="markdown-container" class="content-container">
+                <h4>Markdown:</h4>
+                <button id="run-button">Run</button>
+                <textarea id="markdown" class="content" style="width:100%"></textarea>
+            </section>
+            
+            <section id="html-container" class="content-container">
+                <h4>Html:</h4>
+                <pre id="html" class="content"></pre>
+            </section>
+
+            <section id="result-container" class="content-container">
+                <h4>Result:</h4>
+                <div id="result" class="content"></div>
+            </section>
+        </section>
+
+        <script src="markdownToHtml.js"></script>
+    </body>
+</html>
