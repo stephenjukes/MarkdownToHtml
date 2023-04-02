@@ -390,7 +390,7 @@ _This is italic text_
 
 Unordered
 
-+ Create a list by starting a line with `+`, `-`, or `*`
++ Create a list by starting a line with '+', '-', or '*'
 + Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
     * Ac tristique libero volutpat at
@@ -428,19 +428,19 @@ Indented code
 
 Block code "fences"
 
-```
+\`\`\`
 Sample text here...
-```
+\`\`\`
 
 Syntax highlighting
 
-``` js
+\`\`\` js
 var foo = function (bar) {
   return bar++;
 };
 
 console.log(foo(5));
-```
+\`\`\`
 
 ## Tables
 
