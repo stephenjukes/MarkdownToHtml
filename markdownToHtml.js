@@ -416,7 +416,7 @@ Start numbering with offset:
 
 ## Code
 
-Inline `code`
+Inline 'code'
 
 Indented code
 
